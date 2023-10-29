@@ -17,7 +17,7 @@ int main() {
     printf("what number you want until: \n");
     scanf("%d", &number);
     //getting a number value
-    for (int i = 0; i <= number; i++) {
+    for (int i = 1; i <= number; i++) {
         square = i*i;
         fprintf(file, "%d\n", square);
     }
